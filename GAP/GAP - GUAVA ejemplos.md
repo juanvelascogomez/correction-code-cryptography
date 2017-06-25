@@ -37,6 +37,7 @@ This code decodes by majority.
 ## Linear codes
 
 Recall that a code is linear if it is a subspace of $\mathbb{F}_q^n$ for some finite field $\mathbb{F}_q$ and a positive integer $n$.
+
 Our code $\{000,111\}$ is linear, since it is a subspace of $\mathbb{Z}_2^3$.
 
 ```
