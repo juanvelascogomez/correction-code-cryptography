@@ -1,8 +1,6 @@
 # Códigos correctores de errores y criptografía
----
 
 ## Información general
----
 
 Doble Grado en Ingeniería Informática y Matemáticas (Universidad de Granada)
 
@@ -36,7 +34,7 @@ Todo el trabajo matemático viene acompañado de un desarrollo informático util
 
 
 ## Repositorio
----
+
   - Trabajo desarrollado (PDF)
   - Códigos desarrollados en [SageMath](http://www.sagemath.org/)
   - Códigos desarrollados en [GAP](http://www.gap-system.org/)
