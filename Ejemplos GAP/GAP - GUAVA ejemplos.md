@@ -1,6 +1,6 @@
 # Examples with `guava` `GAP` package
 
-## Defining a code
+## Defining a code
 
 We load `guava` with `LoadPackage("guava");`.
 
@@ -168,8 +168,12 @@ gap> v+last;
 [ 0 0 0 1 1 1 1 ]
 ```
 
-## (Binary) Goppa codes
-Let $g(x)$ be a squarefree polynomial over $\mathbb{F}_{2^k}$ for some positive integer $k$. Let $L=\{\alpha_1,\ldots,\alpha_n\}\subset \mathbb{F}_{2^k}$ be such that no $\alpha_i$ is a zero of $g(x)$. Set for $c\in \mathbb{Z}_2^n$, set $R_c(x)=\sum_{i=1}^n \frac{c_i}{x-\alpha_i} \bmod{g(x)}$. The Goppa code associated to $g(x)$ and $c$ is the set of $c\in\mathbb{Z}_2^n$ such that $R_c(x)\cong 0 \bmod{g(x)}$.  
+## (Binary) Goppa codes
+Let $g(x)$ be a squarefree polynomial over $\mathbb{F}_{2^k}$ for some positive integer $k$. 
+
+Let $L=\{\alpha_1,\ldots,\alpha_n\}\subset \mathbb{F}_{2^k}$ be such that no $\alpha_i$ is a zero of $g(x)$. Set for $c\in \mathbb{Z}_2^n$, set $R_c(x)=\sum_{i=1}^n \frac{c_i}{x-\alpha_i} \bmod{g(x)}$. 
+
+The Goppa code associated to $g(x)$ and $c$ is the set of $c\in\mathbb{Z}_2^n$ such that $R_c(x)\cong 0 \bmod{g(x)}$.  
 
 The minimum distance of this codes is $2\deg(g(x))+1$.
 
